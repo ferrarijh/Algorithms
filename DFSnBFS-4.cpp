@@ -4,9 +4,14 @@
 #include <iostream>
 using namespace std;
 
-/*==========input==========
+/* perform DFS and BFS.
+==========INPUT==========
 1st line : number of nodes(v), number of edges(e), starting node(start)
 from 2nd line : edge between node1(v1) and node2(v2)
+
+==========OUTPUT==========
+1st line : dfs
+2nd line : bfs
 */
 
 vector<set<int>> edges;
