@@ -3,6 +3,15 @@
 #define NIL -1
 #define MAX 1000000000
 using namespace std;
+/* 
+implement Floyd Warshall algorithm.
+=========INPUTS==========
+1st line : number of nodes(v), number of edges(e)
+from 2nd line : edge from node1(v1) to node2(v2) with weight(w).
+
+==========OUTPUTS==========
+all minimum weight path between node i to node j
+*/
 typedef pair<int, int> pr;
 
 vector<vector<pr>> fw;
@@ -36,7 +45,6 @@ int main() {
 		}
 		printf("\n");
 	}
-
 
 	return 0;
 }
